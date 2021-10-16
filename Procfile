@@ -1,1 +1,1 @@
-web: gunicorn chat_app_project:app -preload
+web: gunicorn chat_app_project.wsgi -preload
